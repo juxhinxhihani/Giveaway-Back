@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WinnerGenerator-Backend</name>
+    </assembly>
+    <members>
+        <member name="M:WinnerGenerator_Backend.Controllers.GiveawayController.SubmitData(WinnerGenerator_Backend.DTO.SubmitDataDTO)">
+            <summary>
+            Submit another giveaway
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WinnerGenerator_Backend.Controllers.GiveawayController.GetAll">
+            <summary>
+            Get all giveaways
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WinnerGenerator_Backend.Controllers.GiveawayController.GetActive">
+            <summary>
+            Get giveaway by ID
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WinnerGenerator_Backend.Controllers.GiveawayController.UpdateActive(System.Int32)">
+            <summary>
+            Set active/nonActive giveaways
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WinnerGenerator_Backend.Controllers.GiveawayController.AddWinner(WinnerGenerator_Backend.Models.Request.WinnerRequest)">
+            <summary>
+            Add winner on active giveaway
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

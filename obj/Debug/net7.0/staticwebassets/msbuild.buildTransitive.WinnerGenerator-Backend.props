@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/WinnerGenerator-Backend.props" />
+</Project>
